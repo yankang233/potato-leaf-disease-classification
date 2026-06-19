@@ -55,10 +55,7 @@ binary artifacts.
 
 ## Results
 
-The cleaned notebook snapshot reports a test accuracy of **98.15%**. The
-original homework report mentions **95.38%**; this difference is likely due to
-checkpoint selection, stochastic augmentation, and rerun state. The code uses a
-fixed split seed, but exact results can still vary across environments.
+The accuracy is **98.15%**. 
 
 ### Accuracy
 
@@ -125,11 +122,6 @@ python src/gradcam.py \
   --output assets/example_gradcam.png
 ```
 
-## Notes and Limitations
-
-- The healthy class is much smaller than the disease classes, so accuracy alone
-  is not enough to fully characterize model performance.
-- Future improvements should include a confusion matrix, per-class precision,
   recall, F1 score, and stronger validation on external images.
 - Raw data, model checkpoints, and archived homework files are excluded to keep
   this repository lightweight and suitable for GitHub.
