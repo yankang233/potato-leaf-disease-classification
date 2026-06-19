@@ -32,6 +32,7 @@ models/
 
 # Local-only documents that may contain personal information
 docs/original_report.docx
+docs/~$*.docx
 
 # OS/editor files
 .DS_Store

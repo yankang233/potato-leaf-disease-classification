@@ -55,7 +55,7 @@ binary artifacts.
 
 ## Results
 
-The accuracy is **98.15%**. 
+The accuracy is **98.15%**.
 
 ### Accuracy
 
@@ -65,9 +65,9 @@ The accuracy is **98.15%**.
 
 ![Training and validation loss](assets/loss.png)
 
-### Grad-CAM Misclassification Example
+### Grad-CAM Misclassification Examples
 
-![Grad-CAM misclassification example](assets/gradcam_misclassified_1.png)
+![Grad-CAM misclassification examples](assets/gradcam_misclassified_1.png)
 
 ## Repository Structure
 
@@ -122,6 +122,7 @@ python src/gradcam.py \
   --output assets/example_gradcam.png
 ```
 
-  recall, F1 score, and stronger validation on external images.
+## Notes
+
 - Raw data, model checkpoints, and archived homework files are excluded to keep
   this repository lightweight and suitable for GitHub.
