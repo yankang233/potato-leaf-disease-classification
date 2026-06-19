@@ -84,8 +84,6 @@ fixed split seed, but exact results can still vary across environments.
 |   `-- gradcam_misclassified_3.png
 |-- data/
 |   `-- .gitkeep
-|-- docs/
-|   `-- original_report.docx
 |-- notebooks/
 |   `-- potato_leaf_disease_classification.ipynb
 |-- src/
@@ -135,7 +133,3 @@ python src/gradcam.py \
   recall, F1 score, and stronger validation on external images.
 - Raw data, model checkpoints, and archived homework files are excluded to keep
   this repository lightweight and suitable for GitHub.
-
-## Original Report
-
-The original course report is included at `docs/original_report.docx`.
