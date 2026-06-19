@@ -27,16 +27,6 @@ local dataset used for this project contains:
 
 ![Potato leaf dataset samples](assets/dataset_samples.png)
 
-Raw image data is not committed to this repository. To reproduce the project,
-place the dataset in:
-
-```text
-data/PotatoPlants/
-  Potato___Early_blight/
-  Potato___Late_blight/
-  Potato___healthy/
-```
-
 ## Method
 
 The pipeline uses an 80/10/10 train-validation-test split with a fixed random
@@ -50,9 +40,6 @@ The model is a ResNet50 classifier:
 2. Freeze the convolutional backbone.
 3. Replace the final fully connected layer with a 3-class classification head.
 4. Train the classification head with cross-entropy loss and Adam.
-
-Model checkpoints are intentionally excluded from GitHub because they are large
-binary artifacts.
 
 ## Results
 
