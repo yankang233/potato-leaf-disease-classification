@@ -25,6 +25,8 @@ local dataset used for this project contains:
 | `Potato___Late_blight` | 1,000 |
 | `Potato___healthy` | 152 |
 
+![Potato leaf dataset samples](assets/dataset_samples.png)
+
 Raw image data is not committed to this repository. To reproduce the project,
 place the dataset in:
 
@@ -74,6 +76,7 @@ The accuracy is **98.15%**.
 .
 |-- assets/
 |   |-- accuracy.png
+|   |-- dataset_samples.png
 |   |-- loss.png
 |   |-- gradcam_misclassified_1.png
 |   |-- gradcam_misclassified_2.png
