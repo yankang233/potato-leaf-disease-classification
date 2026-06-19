@@ -30,6 +30,9 @@ models/
 *.tar.gz
 *.rar
 
+# Local-only documents that may contain personal information
+docs/original_report.docx
+
 # OS/editor files
 .DS_Store
 Thumbs.db
