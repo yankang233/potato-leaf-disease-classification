@@ -48,7 +48,6 @@ The model is a ResNet50 classifier:
 2. Freeze the convolutional backbone.
 3. Replace the final fully connected layer with a 3-class classification head.
 4. Train the classification head with cross-entropy loss and Adam.
-5. Save the best validation checkpoint locally under `outputs/`.
 
 Model checkpoints are intentionally excluded from GitHub because they are large
 binary artifacts.
@@ -121,8 +120,3 @@ python src/gradcam.py \
   --checkpoint outputs/best_model.pth \
   --output assets/example_gradcam.png
 ```
-
-## Notes
-
-- Raw data, model checkpoints, and archived homework files are excluded to keep
-  this repository lightweight and suitable for GitHub.
