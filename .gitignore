@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local data and model artifacts
+data/*
+!data/.gitkeep
+outputs/
+checkpoints/
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Archives and duplicate raw submissions
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
